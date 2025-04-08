@@ -2,6 +2,7 @@
   "name": "mittudokvenni",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://czffrktln.github.io/MitTudokVenni",
   "type": "module",
   "scripts": {
     "dev": "vite",
