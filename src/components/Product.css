@@ -1,0 +1,24 @@
+.product-line {
+  display: flex;
+  justify-content: space-between;
+  margin: 2px;
+}
+
+.product {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.strike {
+  position: relative;
+}
+.strike:before {
+    content: " ";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
